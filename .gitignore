@@ -1,2 +1,5 @@
 oracleJdk-27/
 *.class
+notes.md
+python_log_analyzer.py
+security_log.json
