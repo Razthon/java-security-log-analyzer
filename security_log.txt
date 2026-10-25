@@ -92,3 +92,253 @@
 2026-10-21 11:02:22 WARN Failed login user=guest ip=198.51.100.42
 2026-10-21 11:15:31 WARN Port scan detected ip=203.0.113.90 ports=21,22,23,25
 2026-10-21 11:15:40 WARN Port scan detected ip=203.0.113.90 ports=3306,5432,8080,8443
+2026-10-22 08:02:41 INFO File accessed user=alice file=inventory.xlsx
+2026-10-22 08:05:17 INFO Login successful user=analyst1 ip=192.168.1.42
+2026-10-22 08:08:13 INFO File accessed user=bob file=training_notes.txt
+2026-10-22 08:09:24 INFO Login successful user=alice ip=192.168.1.42
+2026-10-22 08:12:10 INFO Password changed user=charlie ip=192.168.1.77
+2026-10-22 08:13:07 INFO Login successful user=analyst1 ip=192.168.1.42
+2026-10-22 08:16:02 INFO File accessed user=david file=network_diagram.pdf
+2026-10-22 08:17:58 INFO Backup completed user=charlie file=system_backup.tar
+2026-10-22 08:20:30 INFO Login successful user=charlie ip=192.168.1.42
+2026-10-22 08:23:08 INFO Login successful user=jordan ip=192.168.1.5
+2026-10-22 08:23:34 WARN Unauthorized file access user=service_backup file=restricted.pdf
+2026-10-22 08:23:52 INFO Logout user=bob ip=192.168.1.90
+2026-10-22 08:25:42 INFO Login successful user=jordan ip=192.168.1.5
+2026-10-22 08:27:58 INFO Password changed user=jordan ip=192.168.1.14
+2026-10-22 08:29:10 INFO Backup completed user=charlie file=system_backup.tar
+2026-10-22 08:31:27 INFO Login successful user=charlie ip=192.168.1.14
+2026-10-22 08:32:21 INFO Login successful user=emma ip=192.168.1.90
+2026-10-22 08:33:12 WARN Unauthorized file access user=alice file=finance.xlsx
+2026-10-22 08:35:40 ERROR Firewall blocked connection ip=192.168.1.14 port=445
+2026-10-22 08:37:00 INFO File accessed user=alice file=training_notes.txt
+2026-10-22 08:38:35 INFO File accessed user=david file=network_diagram.pdf
+2026-10-22 08:40:38 INFO File accessed user=charlie file=training_notes.txt
+2026-10-22 08:43:22 INFO Login successful user=charlie ip=192.168.1.14
+2026-10-22 08:45:44 INFO File accessed user=emma file=quarterly_report.pdf
+2026-10-22 08:47:07 ERROR Access denied user=charlie file=restricted.pdf
+2026-10-22 08:48:18 INFO Login successful user=bob ip=192.168.1.5
+2026-10-22 08:49:09 INFO Logout user=bob ip=192.168.1.42
+2026-10-22 08:51:09 INFO Backup completed user=bob file=system_backup.tar
+2026-10-22 08:52:40 ERROR Access denied user=bob file=restricted.pdf
+2026-10-22 08:54:47 WARN Unauthorized file access user=emma file=restricted.pdf
+2026-10-22 08:57:46 INFO Backup completed user=analyst1 file=system_backup.tar
+2026-10-22 08:58:19 INFO Backup completed user=jordan file=system_backup.tar
+2026-10-22 08:59:08 INFO File accessed user=service_backup file=quarterly_report.pdf
+2026-10-22 09:01:21 ERROR Firewall blocked connection ip=192.168.1.77 port=8080
+2026-10-22 09:02:57 INFO Password changed user=david ip=192.168.1.14
+2026-10-22 09:05:05 INFO Login successful user=bob ip=192.168.1.77
+2026-10-22 09:06:29 INFO Logout user=david ip=192.168.1.14
+2026-10-22 09:07:21 WARN Unauthorized file access user=david file=restricted.pdf
+2026-10-22 09:08:07 INFO File accessed user=emma file=project_notes.docx
+2026-10-22 09:09:56 INFO File accessed user=alice file=backup_config.json
+2026-10-22 09:11:16 INFO Logout user=bob ip=192.168.1.31
+2026-10-22 09:12:21 ERROR Firewall blocked connection ip=192.168.1.5 port=8080
+2026-10-22 09:15:14 INFO Login successful user=alice ip=192.168.1.77
+2026-10-22 09:17:32 INFO Login successful user=jordan ip=192.168.1.22
+2026-10-22 09:18:21 INFO Login successful user=service_backup ip=192.168.1.14
+2026-10-22 09:20:18 INFO Login successful user=service_backup ip=192.168.1.90
+2026-10-22 09:22:19 WARN Unauthorized file access user=service_backup file=admin_notes.txt
+2026-10-22 09:25:14 INFO Login successful user=bob ip=192.168.1.14
+2026-10-22 09:25:43 ERROR Firewall blocked connection ip=192.168.1.22 port=445
+2026-10-22 09:27:32 INFO Login successful user=emma ip=192.168.1.42
+2026-10-22 09:29:02 INFO Logout user=charlie ip=192.168.1.42
+2026-10-22 09:30:13 INFO Backup completed user=emma file=system_backup.tar
+2026-10-22 09:32:08 ERROR Access denied user=jordan file=restricted.pdf
+2026-10-22 09:33:03 INFO Login successful user=service_backup ip=192.168.1.5
+2026-10-22 09:33:54 INFO Logout user=bob ip=192.168.1.42
+2026-10-22 09:35:56 INFO Login successful user=david ip=192.168.1.14
+2026-10-22 09:37:19 INFO Login successful user=david ip=192.168.1.5
+2026-10-22 09:39:56 INFO Login successful user=bob ip=192.168.1.5
+2026-10-22 09:42:00 INFO File accessed user=analyst1 file=inventory.xlsx
+2026-10-22 09:42:23 INFO Login successful user=charlie ip=192.168.1.55
+2026-10-22 09:43:24 WARN Unauthorized file access user=service_backup file=finance.xlsx
+2026-10-22 09:45:59 INFO Backup completed user=charlie file=system_backup.tar
+2026-10-22 09:46:21 INFO Backup completed user=alice file=system_backup.tar
+2026-10-22 09:47:55 INFO Login successful user=charlie ip=192.168.1.31
+2026-10-22 09:50:41 INFO Logout user=analyst1 ip=192.168.1.42
+2026-10-22 09:53:05 INFO Password changed user=alice ip=192.168.1.55
+2026-10-22 09:54:37 INFO Login successful user=analyst1 ip=192.168.1.22
+2026-10-22 09:55:40 INFO Login successful user=jordan ip=192.168.1.31
+2026-10-22 09:57:17 INFO Login successful user=bob ip=192.168.1.14
+2026-10-22 09:58:04 INFO File accessed user=analyst1 file=project_notes.docx
+2026-10-22 09:59:23 INFO Backup completed user=analyst1 file=system_backup.tar
+2026-10-22 10:01:51 INFO File accessed user=emma file=backup_config.json
+2026-10-22 10:04:16 INFO File accessed user=alice file=backup_config.json
+2026-10-22 10:04:45 INFO Login successful user=charlie ip=192.168.1.31
+2026-10-22 10:05:03 INFO Login successful user=analyst1 ip=192.168.1.31
+2026-10-22 10:05:22 INFO File accessed user=bob file=quarterly_report.pdf
+2026-10-22 10:07:04 INFO Login successful user=alice ip=192.168.1.14
+2026-10-22 10:08:27 INFO File accessed user=alice file=quarterly_report.pdf
+2026-10-22 10:09:15 INFO Logout user=david ip=192.168.1.14
+2026-10-22 10:12:04 INFO File accessed user=alice file=quarterly_report.pdf
+2026-10-22 10:13:23 ERROR Malware signature detected user=emma file=macro.docm
+2026-10-22 10:14:32 INFO File accessed user=jordan file=quarterly_report.pdf
+2026-10-22 10:15:24 INFO Logout user=alice ip=192.168.1.22
+2026-10-22 10:16:58 INFO File accessed user=david file=backup_config.json
+2026-10-22 10:18:32 INFO File accessed user=david file=project_notes.docx
+2026-10-22 10:19:37 INFO Logout user=david ip=192.168.1.90
+2026-10-22 10:22:08 INFO Login successful user=charlie ip=192.168.1.77
+2026-10-22 10:24:21 INFO File accessed user=jordan file=inventory.xlsx
+2026-10-22 10:27:16 INFO File accessed user=analyst1 file=quarterly_report.pdf
+2026-10-22 10:30:02 INFO Login successful user=david ip=192.168.1.5
+2026-10-22 10:31:04 INFO Login successful user=jordan ip=192.168.1.90
+2026-10-22 10:32:48 INFO Logout user=alice ip=192.168.1.90
+2026-10-22 10:34:04 INFO File accessed user=service_backup file=backup_config.json
+2026-10-22 10:36:35 INFO Login successful user=charlie ip=192.168.1.14
+2026-10-22 10:37:38 INFO File accessed user=analyst1 file=network_diagram.pdf
+2026-10-22 10:38:38 INFO Logout user=emma ip=192.168.1.31
+2026-10-22 10:40:59 INFO File accessed user=david file=inventory.xlsx
+2026-10-22 10:42:02 INFO File accessed user=emma file=training_notes.txt
+2026-10-22 10:43:22 INFO Logout user=jordan ip=192.168.1.90
+2026-10-22 10:44:07 INFO Logout user=emma ip=192.168.1.22
+2026-10-22 10:45:56 INFO File accessed user=alice file=network_diagram.pdf
+2026-10-22 10:47:13 INFO Logout user=service_backup ip=192.168.1.77
+2026-10-22 10:49:03 INFO File accessed user=analyst1 file=quarterly_report.pdf
+2026-10-22 10:51:48 INFO Logout user=emma ip=192.168.1.55
+2026-10-22 10:53:26 INFO File accessed user=emma file=network_diagram.pdf
+2026-10-22 10:55:00 ERROR Access denied user=analyst1 file=restricted.pdf
+2026-10-22 10:57:23 INFO File accessed user=analyst1 file=backup_config.json
+2026-10-22 10:59:42 INFO File accessed user=analyst1 file=backup_config.json
+2026-10-22 11:02:14 INFO Logout user=service_backup ip=192.168.1.55
+2026-10-22 11:03:55 INFO Login successful user=jordan ip=192.168.1.77
+2026-10-22 11:05:02 WARN Unauthorized file access user=jordan file=admin_notes.txt
+2026-10-22 11:06:50 INFO Login successful user=bob ip=192.168.1.77
+2026-10-22 11:09:38 INFO Password changed user=david ip=192.168.1.55
+2026-10-22 11:12:08 INFO File accessed user=jordan file=backup_config.json
+2026-10-22 11:14:46 ERROR Access denied user=jordan file=restricted.pdf
+2026-10-22 11:15:35 INFO Logout user=jordan ip=192.168.1.55
+2026-10-22 11:16:20 INFO Backup completed user=service_backup file=system_backup.tar
+2026-10-22 11:17:52 INFO Login successful user=jordan ip=192.168.1.42
+2026-10-22 11:20:14 INFO Logout user=emma ip=192.168.1.42
+2026-10-22 11:22:33 ERROR Malware signature detected user=jordan file=macro.docm
+2026-10-22 11:23:37 INFO Backup completed user=charlie file=system_backup.tar
+2026-10-22 11:24:31 ERROR Firewall blocked connection ip=192.168.1.31 port=3389
+2026-10-22 11:25:22 INFO Backup completed user=service_backup file=system_backup.tar
+2026-10-22 11:27:02 INFO Login successful user=service_backup ip=192.168.1.14
+2026-10-22 11:28:41 INFO Logout user=service_backup ip=192.168.1.31
+2026-10-22 11:30:00 INFO Logout user=emma ip=192.168.1.90
+2026-10-22 11:32:26 INFO Login successful user=service_backup ip=192.168.1.42
+2026-10-22 11:35:07 INFO File accessed user=emma file=quarterly_report.pdf
+2026-10-22 11:36:07 INFO Password changed user=jordan ip=192.168.1.90
+2026-10-22 11:36:48 WARN Unauthorized file access user=alice file=restricted.pdf
+2026-10-22 11:37:09 INFO Logout user=emma ip=192.168.1.5
+2026-10-22 11:37:56 INFO File accessed user=bob file=inventory.xlsx
+2026-10-22 11:38:52 INFO Login successful user=alice ip=192.168.1.55
+2026-10-22 11:39:19 INFO Login successful user=david ip=192.168.1.31
+2026-10-22 11:39:47 INFO File accessed user=bob file=inventory.xlsx
+2026-10-22 11:41:09 INFO File accessed user=charlie file=project_notes.docx
+2026-10-22 11:43:40 ERROR Firewall blocked connection ip=192.168.1.14 port=445
+2026-10-22 11:44:18 INFO Backup completed user=charlie file=system_backup.tar
+2026-10-22 11:45:33 INFO Password changed user=charlie ip=192.168.1.90
+2026-10-22 11:46:05 INFO Login successful user=analyst1 ip=192.168.1.22
+2026-10-22 11:46:45 WARN Unauthorized file access user=emma file=admin_notes.txt
+2026-10-22 11:48:36 INFO File accessed user=david file=inventory.xlsx
+2026-10-22 11:49:59 INFO File accessed user=charlie file=quarterly_report.pdf
+2026-10-22 11:51:56 WARN Unauthorized file access user=charlie file=restricted.pdf
+2026-10-22 11:54:06 INFO File accessed user=charlie file=project_notes.docx
+2026-10-22 11:56:43 INFO Login successful user=alice ip=192.168.1.14
+2026-10-22 11:59:20 INFO Login successful user=alice ip=192.168.1.42
+2026-10-22 12:01:12 INFO File accessed user=david file=network_diagram.pdf
+2026-10-22 12:02:12 INFO Login successful user=david ip=192.168.1.22
+2026-10-22 12:02:49 INFO Login successful user=analyst1 ip=192.168.1.42
+2026-10-22 12:03:14 WARN Failed login user=administrator ip=10.0.0.8
+2026-10-22 12:03:48 WARN Failed login user=guest ip=10.0.0.8
+2026-10-22 12:04:21 WARN Failed login user=guest ip=10.0.0.8
+2026-10-22 12:04:36 WARN Failed login user=guest ip=10.0.0.8
+2026-10-22 12:05:07 WARN Failed login user=admin ip=10.0.0.8
+2026-10-22 12:05:16 ERROR Account locked user=admin ip=10.0.0.8
+2026-10-22 12:05:47 WARN Failed login user=service ip=10.0.0.8
+2026-10-22 12:05:58 WARN Failed login user=root ip=10.0.0.8
+2026-10-22 12:06:34 WARN Failed login user=guest ip=10.0.0.8
+2026-10-22 12:06:55 WARN Failed login user=service ip=10.0.0.8
+2026-10-22 12:07:01 WARN Failed login user=administrator ip=10.0.0.8
+2026-10-22 12:07:12 WARN Port scan detected ip=10.0.0.8 ports=21,23,445,8080
+2026-10-22 12:07:48 WARN Port scan detected ip=10.0.0.8 ports=25,110,143,993
+2026-10-22 12:08:16 WARN Port scan detected ip=10.0.0.8 ports=22,80,443,3389
+2026-10-22 12:08:53 WARN Port scan detected ip=10.0.0.8 ports=25,110,143,993
+2026-10-22 12:09:15 WARN Port scan detected ip=10.0.0.8 ports=22,80,443,3389
+2026-10-22 12:09:25 WARN Failed login user=guest ip=172.16.0.45
+2026-10-22 12:10:05 WARN Failed login user=service ip=172.16.0.45
+2026-10-22 12:10:26 WARN Failed login user=administrator ip=172.16.0.45
+2026-10-22 12:11:05 WARN Failed login user=admin ip=172.16.0.45
+2026-10-22 12:11:38 WARN Failed login user=admin ip=172.16.0.45
+2026-10-22 12:11:46 ERROR Account locked user=admin ip=172.16.0.45
+2026-10-22 12:11:55 WARN Failed login user=root ip=172.16.0.45
+2026-10-22 12:12:07 WARN Failed login user=administrator ip=172.16.0.45
+2026-10-22 12:12:46 WARN Port scan detected ip=172.16.0.45 ports=1433,3306,5432,9200
+2026-10-22 12:13:12 WARN Port scan detected ip=172.16.0.45 ports=22,80,443,3389
+2026-10-22 12:13:27 WARN Port scan detected ip=172.16.0.45 ports=25,110,143,993
+2026-10-22 12:13:39 WARN Port scan detected ip=172.16.0.45 ports=21,23,445,8080
+2026-10-22 12:14:23 WARN Port scan detected ip=172.16.0.45 ports=25,110,143,993
+2026-10-22 12:14:55 WARN Port scan detected ip=172.16.0.45 ports=22,80,443,3389
+2026-10-22 12:15:01 WARN Failed login user=service ip=203.0.113.17
+2026-10-22 12:15:31 WARN Failed login user=service ip=203.0.113.17
+2026-10-22 12:15:52 WARN Failed login user=root ip=203.0.113.17
+2026-10-22 12:16:19 WARN Failed login user=root ip=203.0.113.17
+2026-10-22 12:16:27 WARN Failed login user=service ip=203.0.113.17
+2026-10-22 12:16:37 ERROR Account locked user=service ip=203.0.113.17
+2026-10-22 12:17:15 WARN Failed login user=service ip=203.0.113.17
+2026-10-22 12:17:36 WARN Failed login user=service ip=203.0.113.17
+2026-10-22 12:17:58 WARN Failed login user=admin ip=203.0.113.17
+2026-10-22 12:18:08 WARN Failed login user=administrator ip=203.0.113.17
+2026-10-22 12:18:18 WARN Failed login user=service ip=203.0.113.17
+2026-10-22 12:18:27 ERROR Account locked user=service ip=203.0.113.17
+2026-10-22 12:19:02 WARN Failed login user=admin ip=203.0.113.17
+2026-10-22 12:19:30 WARN Failed login user=administrator ip=203.0.113.17
+2026-10-22 12:19:40 WARN Port scan detected ip=203.0.113.17 ports=25,110,143,993
+2026-10-22 12:20:14 WARN Port scan detected ip=203.0.113.17 ports=53,135,139,445
+2026-10-22 12:20:38 WARN Port scan detected ip=203.0.113.17 ports=8080,8443,9000,9443
+2026-10-22 12:21:14 WARN Failed login user=guest ip=198.51.100.42
+2026-10-22 12:21:54 WARN Failed login user=administrator ip=198.51.100.42
+2026-10-22 12:21:59 WARN Failed login user=admin ip=198.51.100.42
+2026-10-22 12:22:34 WARN Failed login user=root ip=198.51.100.42
+2026-10-22 12:22:46 WARN Failed login user=root ip=198.51.100.42
+2026-10-22 12:22:49 ERROR Account locked user=root ip=198.51.100.42
+2026-10-22 12:23:02 WARN Failed login user=service ip=198.51.100.42
+2026-10-22 12:23:11 WARN Failed login user=service ip=198.51.100.42
+2026-10-22 12:23:45 WARN Failed login user=admin ip=198.51.100.42
+2026-10-22 12:23:54 WARN Port scan detected ip=203.0.113.90 ports=8080,8443,9000,9443
+2026-10-22 12:24:34 WARN Port scan detected ip=203.0.113.90 ports=25,110,143,993
+2026-10-22 12:25:18 WARN Port scan detected ip=203.0.113.90 ports=22,80,443,3389
+2026-10-22 12:25:33 WARN Port scan detected ip=203.0.113.90 ports=25,110,143,993
+2026-10-22 12:25:59 WARN Port scan detected ip=203.0.113.90 ports=8080,8443,9000,9443
+2026-10-22 12:26:07 WARN Port scan detected ip=203.0.113.90 ports=1433,3306,5432,9200
+2026-10-22 12:26:25 WARN Failed login user=service ip=10.0.0.25
+2026-10-22 12:27:02 WARN Failed login user=root ip=10.0.0.25
+2026-10-22 12:27:29 WARN Port scan detected ip=10.0.0.25 ports=25,110,143,993
+2026-10-22 12:28:06 WARN Port scan detected ip=10.0.0.25 ports=22,80,443,3389
+2026-10-22 12:28:23 WARN Port scan detected ip=10.0.0.25 ports=22,80,443,3389
+2026-10-22 12:28:46 WARN Port scan detected ip=10.0.0.25 ports=25,110,143,993
+2026-10-22 12:28:53 WARN Port scan detected ip=10.0.0.25 ports=25,110,143,993
+2026-10-22 12:28:58 WARN Failed login user=admin ip=10.10.10.50
+2026-10-22 12:29:12 WARN Failed login user=administrator ip=10.10.10.50
+2026-10-22 12:29:38 WARN Failed login user=root ip=10.10.10.50
+2026-10-22 12:30:17 WARN Failed login user=guest ip=10.10.10.50
+2026-10-22 12:31:02 WARN Port scan detected ip=10.10.10.50 ports=21,23,445,8080
+2026-10-22 12:31:32 WARN Port scan detected ip=10.10.10.50 ports=22,80,443,3389
+2026-10-22 12:31:52 WARN Failed login user=administrator ip=198.51.100.77
+2026-10-22 12:32:25 WARN Failed login user=admin ip=198.51.100.77
+2026-10-22 12:32:34 WARN Failed login user=admin ip=198.51.100.77
+2026-10-22 12:33:12 WARN Failed login user=admin ip=198.51.100.77
+2026-10-22 12:33:20 WARN Failed login user=root ip=198.51.100.77
+2026-10-22 12:33:29 ERROR Account locked user=root ip=198.51.100.77
+2026-10-22 12:34:00 WARN Failed login user=administrator ip=198.51.100.77
+2026-10-22 12:34:07 WARN Port scan detected ip=203.0.113.200 ports=22,80,443,3389
+2026-10-22 12:34:36 WARN Port scan detected ip=203.0.113.200 ports=53,135,139,445
+2026-10-22 12:34:58 WARN Port scan detected ip=203.0.113.200 ports=8080,8443,9000,9443
+2026-10-22 12:35:19 WARN Port scan detected ip=203.0.113.200 ports=8080,8443,9000,9443
+2026-10-22 12:36:56 ERROR Firewall blocked connection ip=192.168.1.5 port=22
+2026-10-22 12:37:29 INFO File accessed user=charlie file=project_notes.docx
+2026-10-22 12:38:01 INFO File accessed user=bob file=project_notes.docx
+2026-10-22 12:38:39 INFO File accessed user=david file=project_notes.docx
+2026-10-22 12:39:27 INFO File quarantined user=jordan file=payload.exe
+2026-10-22 12:40:21 INFO File accessed user=david file=project_notes.docx
+2026-10-22 12:41:43 INFO Login successful user=service_backup ip=192.168.1.90
+2026-10-22 12:43:21 INFO Login successful user=service_backup ip=192.168.1.22
+2026-10-22 12:44:01 INFO Login successful user=alice ip=192.168.1.77
+2026-10-22 12:45:22 INFO File accessed user=emma file=project_notes.docx
+2026-10-22 12:45:57 WARN Failed login user=bob ip=192.168.1.90
+2026-10-22 12:46:59 WARN Failed login user=charlie ip=192.168.1.55
+2026-10-22 12:48:53 INFO File quarantined user=analyst1 file=payload.exe
+2026-10-22 12:49:48 INFO File quarantined user=david file=payload.exe
