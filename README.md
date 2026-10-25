@@ -1,7 +1,8 @@
 # java-security-log-analyzer
-WIP tool to analyze fictional access logs
-
 
 Utilizes File and Scanner utilities to read a file line by line and flag different types of events such as warnings or errors and keep track of them
 
-It also utilizes HashMap to store problem IPs with multiple failed logins
+It also utilizes HashMap and HashSet to store problem IPs with multiple failed logins and display them in a cleanly formatted way
+
+Program is scalable with hundreds or thousands of potential log entries
+
