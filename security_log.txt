@@ -1,0 +1,50 @@
+2026-10-20 08:02:14 INFO Login successful user=alice ip=192.168.1.14
+2026-10-20 08:04:31 INFO Login successful user=bob ip=192.168.1.22
+2026-10-20 08:07:42 WARN Failed login user=admin ip=10.0.0.8
+2026-10-20 08:07:48 WARN Failed login user=admin ip=10.0.0.8
+2026-10-20 08:07:55 WARN Failed login user=admin ip=10.0.0.8
+2026-10-20 08:08:03 ERROR Account locked user=admin ip=10.0.0.8
+2026-10-20 08:15:17 INFO File accessed user=alice file=quarterly_report.pdf
+2026-10-20 08:22:05 INFO Login successful user=charlie ip=192.168.1.31
+2026-10-20 08:31:44 WARN Failed login user=root ip=172.16.0.45
+2026-10-20 08:32:01 WARN Failed login user=root ip=172.16.0.45
+2026-10-20 08:32:19 WARN Failed login user=root ip=172.16.0.45
+2026-10-20 08:32:42 WARN Failed login user=root ip=172.16.0.45
+2026-10-20 08:33:10 ERROR Account locked user=root ip=172.16.0.45
+2026-10-20 08:41:26 INFO Logout user=bob ip=192.168.1.22
+2026-10-20 09:03:11 INFO Login successful user=david ip=192.168.1.42
+2026-10-20 09:15:38 WARN Failed login user=alice ip=192.168.1.55
+2026-10-20 09:15:51 INFO Login successful user=alice ip=192.168.1.55
+2026-10-20 09:27:03 WARN Port scan detected ip=10.0.0.25 ports=22,80,443,3389
+2026-10-20 09:27:05 WARN Port scan detected ip=10.0.0.25 ports=21,23,445,8080
+2026-10-20 09:29:47 ERROR Firewall blocked connection ip=10.0.0.25 port=22
+2026-10-20 09:35:22 INFO Password changed user=charlie ip=192.168.1.31
+2026-10-20 09:51:06 INFO File accessed user=david file=employee_records.xlsx
+2026-10-20 10:02:33 WARN Failed login user=administrator ip=203.0.113.17
+2026-10-20 10:02:39 WARN Failed login user=administrator ip=203.0.113.17
+2026-10-20 10:02:44 WARN Failed login user=administrator ip=203.0.113.17
+2026-10-20 10:02:51 WARN Failed login user=administrator ip=203.0.113.17
+2026-10-20 10:02:58 WARN Failed login user=administrator ip=203.0.113.17
+2026-10-20 10:03:04 ERROR Account locked user=administrator ip=203.0.113.17
+2026-10-20 10:11:29 INFO Login successful user=alice ip=192.168.1.14
+2026-10-20 10:26:18 WARN Unauthorized file access user=bob file=payroll.xlsx
+2026-10-20 10:26:19 ERROR Access denied user=bob file=payroll.xlsx
+2026-10-20 10:41:37 INFO Logout user=charlie ip=192.168.1.31
+2026-10-20 11:04:52 WARN Failed login user=admin ip=10.0.0.8
+2026-10-20 11:05:02 WARN Failed login user=admin ip=10.0.0.8
+2026-10-20 11:05:17 ERROR Firewall blocked connection ip=10.0.0.8 port=3389
+2026-10-20 11:18:43 INFO Login successful user=service_backup ip=192.168.1.5
+2026-10-20 11:19:02 INFO File accessed user=service_backup file=backup_config.json
+2026-10-20 11:44:27 WARN Port scan detected ip=172.16.0.45 ports=22,23,80,443
+2026-10-20 11:44:31 WARN Port scan detected ip=172.16.0.45 ports=445,1433,3306
+2026-10-20 11:45:08 ERROR Firewall blocked connection ip=172.16.0.45 port=445
+2026-10-20 12:01:14 INFO Logout user=alice ip=192.168.1.14
+2026-10-20 12:17:59 INFO Login successful user=bob ip=192.168.1.22
+2026-10-20 12:31:06 WARN Failed login user=guest ip=203.0.113.17
+2026-10-20 12:31:13 WARN Failed login user=guest ip=203.0.113.17
+2026-10-20 12:31:21 WARN Failed login user=guest ip=203.0.113.17
+2026-10-20 12:46:39 INFO File accessed user=bob file=project_notes.docx
+2026-10-20 13:02:51 ERROR Malware signature detected user=david file=invoice.exe
+2026-10-20 13:03:07 INFO File quarantined user=david file=invoice.exe
+2026-10-20 13:17:26 INFO Logout user=david ip=192.168.1.42
+2026-10-20 13:45:33 INFO Logout user=bob ip=192.168.1.22
